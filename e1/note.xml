@@ -1,0 +1,12 @@
+<note>
+  <id>01</id>
+  <to>Tove</to>
+  <from>Jani</from>
+  <heading>Reminder</heading>
+  <body>Don't forget me this weekend!</body>
+</note>
+<comment>
+  <from>User1</from>
+  <object>01</object>
+  <body>Severo!!</body>
+</comment>

@@ -1,0 +1,45 @@
+body{
+  font-family: Verdana, Arial, sans-serif;
+}
+a{
+  color: crimson;
+}
+a:hover{
+  color: darkred;
+}
+a:visited{
+  color: darkred;
+}
+header{
+  border-bottom: 1px solid black;
+}
+
+nav.menu{
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+nav.menu > ul > li{
+  display: inline-block;
+  border: 1px solid black;
+  padding: .5em 1em .5em 1em;
+}
+
+
+main{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+footer{
+  border-top: 1px solid black;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: center;
+}
+
+
+.copy{
+  text-align: center;
+}

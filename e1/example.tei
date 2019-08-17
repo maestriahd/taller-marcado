@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Spanish-English FreeDict Dictionary</title>
+            <respStmt>
+               <!--for the freedict database-->
+               <resp>Maintainer</resp>
+               <name>[up for grabs]</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>0.3.1</edition>
+         </editionStmt>
+         <extent>4502 headwords</extent>
+         <publicationStmt>
+            <publisher>FreeDict</publisher>
+            <availability status="free">
+               <p>Copyright (C) 1999-2019 by various authors listed below.</p>
+               <p>Available under the terms of the <ref target="https://www.gnu.org/licenses/gpl-2.0.html">GNU General Public License ver. 2.0 and any later version</ref>.</p>
+               <p>This program is free software; you can redistribute it and/or modify it under the
+                  terms of the GNU General Public License as published by the Free Software
+                  Foundation; either version 2 of the License, or (at your option) any later
+                  version.</p>
+               <p>This program is distributed in the hope that it will be useful, but WITHOUT ANY
+                  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+                  PARTICULAR PURPOSE. See the GNU General Public License for more details.</p>
+               <p>You should have received a copy of the GNU General Public License along with this
+                  program; if not, write to the Free Software Foundation, Inc., 59 Temple Place -
+                  Suite 330, Boston, MA 02111-1307, USA.</p>
+            </availability>
+            <pubPlace>
+               <ref target="http://freedict.org/">http://freedict.org/</ref>
+            </pubPlace>
+            <date when="2019-04-30">30th of April 2019</date>
+         </publicationStmt>
+         <notesStmt>
+            <note type="status">too small</note>
+         </notesStmt>
+         <sourceDesc>
+            <p>Home: <ptr target="http://www.travlang.com/" />
+            </p>
+            <p>This Database was generated from Ergane.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This dictionary comes to you through nice people making it available for free and for
+        good. It is part of the FreeDict project, <ref target="http://freedict.org/">http://freedict.org/</ref>. This project aims to make translating
+        dictionaries available for free. Your contributions are welcome!</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+          <change when="2019-04-30">
+             <name>Tom Green</name>
+             Minor corrections
+          </change>
+          <change n="0.3" when="2017-12-09">
+              <name>Sebastian Humenda</name>
+              <list>
+                  <item>update licencing stanza (thanks to Karl Bartel)</item>
+                  <item>remove duplicated entries</item>
+              </list>
+          </change>
+          <change n="0.2" when="2015-02-27" who="#humenda">
+              <date>2015-02-27</date>
+              <name>Sebastian Humenda</name>: remove Esperanto words in parenthesis from translations
+          </change>
+         <change when="2010-10-25">
+            <date>2010-10-25</date>
+            <name>Piotr Bański</name>: Conversion of TEI P4 source into P5 via tools/freedict_P4toP5.xsl; manual clean-up. We are back to version from before Michael
+        Bunk's re-import from Ergane of 2006-12-22 that was rolled back due to Ergane's cryptic
+        change of database licensing. Multi-word equivalents should be split by spaces. There are also what look like Esperanto equivalents tacked onto some equivalents.</change>
+         <change>
+            <date>2005-02-12</date>
+            <name>Michael Bunk</name>Converted file to TEI P4</change>
+         <change>
+            <date>2000-04-30</date>
+            <name>Horst Eyermann</name>Database was converted to TEI format and checked into CVS</change>
+         <change>
+            <date>2000-01-01</date>
+            <name>Horst Eyermann</name>This Database was generated from ergane,
+	  http://www.travlang.com - Thanks!</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry>
+            <form>
+               <orth>Adán</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Adam</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Alcorán</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Koran</quote>
+               </cit>
+            </sense>
+         </entry>
+         <!-- Inicio del objeto entry -->
+         <entry>
+           <form>
+              <orth>volar</orth>
+           </form>
+           <sense>
+              <cit type="trans">
+                 <quote>fly</quote>
+              </cit>
+           </sense>
+        </entry>
+        <!-- Final del objeto entry -->
+      </body>
+    </text>
+</TEI>
